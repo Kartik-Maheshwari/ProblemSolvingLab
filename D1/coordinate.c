@@ -14,12 +14,11 @@ int main(){
     }
     else{
         if(b>0){
-            printf("Second");
+            printf("Second ");
         }
         else{
             printf("Third.");
         }
     }
     return 0;
-
 }
