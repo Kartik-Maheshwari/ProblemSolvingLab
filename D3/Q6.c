@@ -9,10 +9,7 @@ int main(){
     printf("\nEnter the value of x:");
     scanf("%d",&x);
     for(int i=2;i<=n;i++){
-        if(i%2!=0){
-            fact=fact*i;
-        }
-        fact=fact*(2*(i-1));
+        fact=fact*(2*i-2)*(2*i-3);
         sum+=(float)pow(-1,i-1)*(pow(x,2*(i-1))/fact);
     }
     printf("\nThe sum of %d terms is : %f",n,sum);
